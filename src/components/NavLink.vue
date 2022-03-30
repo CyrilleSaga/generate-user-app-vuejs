@@ -20,7 +20,7 @@ export default {
 <style lang="scss" scoped>
     nav {
         background-color:  #212F3D;
-        padding: 15px;
+        padding: 18px;
         color: white;
         display: flex;
         justify-content: space-between;
@@ -34,6 +34,11 @@ export default {
         div {
             display: flex;
             justify-content: center;
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
 
             li {
                 list-style-type: none;
